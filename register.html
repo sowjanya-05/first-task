@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="navigation.css">
+	<style type="text/css">
+		body{
+			background: url("https://img.freepik.com/free-vector/sign-page-abstract-concept-illustration_335657-2242.jpg?w=2000") fixed no-repeat  center ;
+			background-size: 40%;
+			background-color:  #CBC3E3;
+		}
+		.main{
+			margin: 2% 2% 8% 10%;
+			border: 2px solid red;
+			padding: 4% 8% 4% 3%;
+			width: 9%;
+		}
+		.main p{
+			margin: 1%;
+			padding: 6%;
+			width: 20%;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navigation">
+		<a href="register.html">Register</a>
+		<a href="login.html">Login</a>
+		<a href="biography.html">Biography</a>
+		<a href="image.html">Image</a>
+	</nav>
+	<h1 align="CENTER">REGISTRATION PAGE</h1>
+	<form action="login.html" class="main">
+		<p><input placeholder="Name" type="text" required /></p>
+		<p><input placeholder="Email id" type="email" required /></p>
+		<p><input placeholder="Password" type="password"  required /></p>
+		<p><input placeholder="Conform Password" type="password"  required /></p>
+		<p><input placeholder="Mobile number" type="number"  required /></p>
+		<p><input type="date"  required /></p>
+		<p><fieldset>
+			<legend>Gender</legend>
+			<label><input type="radio" value="male" name="gender" />Male</label>
+			<label><input type="radio" value="female" name="gender" />Female</label>
+		</fieldset></p>
+		<p><input placeholder="Address" type="text" required /></p>
+		<p>
+			<button>SignUp</button><br/>
+			<input type="reset" />
+		</p>
+	</form>
+
+</body>
+</html>

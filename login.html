@@ -4,9 +4,34 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<link rel="stylesheet" href="navigation.css">
+	<style type="text/css">
+		body{
+			background-color: lightsalmon;
+		}
+		.one{
+			margin: 2% 30%;
+			border: 2px solid white;
+			padding: 1%;
+		}
+		.one p{
+			margin: 2%;
+			text-align: center;
+			padding: 2%;
+			width: 10%;
+			font-size: 10px;
+		}
+
+	</style>
 </head>
 <body>
-	<form action="aboutalluarjun.html">
+	<nav class="navigation">
+		<a href="register.html">Register</a>
+		<a href="login.html">Login</a>
+		<a href="biography.html">Biography</a>
+		<a href="image.html">Image</a>
+	</nav>
+	<form action="aboutalluarjun.html" class="one">
 		<p><input placeholder="Username" type="text"  required /></p>
 		<p><input placeholder="Password" type="password" required /></p>
 		<p><button>Login</button></p>
